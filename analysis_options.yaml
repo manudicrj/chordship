@@ -1,0 +1,10 @@
+include: package:lint/analysis_options.yaml
+#include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # enabled
+    use_key_in_widget_constructors: true
+
+    #disabled
+    always_specify_types: false
